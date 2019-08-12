@@ -6,9 +6,18 @@ import NewEvent from './NewEvent';
 import ViewEvents from './ViewEvents';
 import {createBrowserHistory} from 'history';
 
-const history = createBrowserHistory();
-class UserRoutes extends React.Component {
+const history = createBrowserHistory(); //manage componenet history within browsre
 
+class UserRoutes extends React.Component {
+  /*
+    Renders below routes specific to user once they log in
+
+    1. Home
+    2. New Event
+    3. View Event
+    4. Profile -Needs setup
+
+  */
 
   render() {
     return (
