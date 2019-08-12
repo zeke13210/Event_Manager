@@ -3,6 +3,10 @@ import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-boots
 
 
 class TopBar extends React.Component {
+  /*
+    Navigation Bar rendered to allow user routing once logged in
+
+  */
   render() {
     return (
       <div>
