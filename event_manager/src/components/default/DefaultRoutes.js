@@ -6,11 +6,17 @@ import SignIn from './SignIn';
 import Register from './Register';
 import {createBrowserHistory} from 'history';
 
-const history = createBrowserHistory();
+const history = createBrowserHistory(); //Stores componenet history in browser
 
 class DefaultRoutes extends React.Component {
+/*
+    For first time visitors of website this Route displays and shows them the below
+    available routes. Functionality still under  works.
 
-
+    1. Home
+    2. Sign In
+    3. Register
+*/
   render() {
     return (
       <div>

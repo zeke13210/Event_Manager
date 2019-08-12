@@ -3,6 +3,12 @@ import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-boots
 
 
 class TopBar extends React.Component {
+  /*
+  Renders navigation link with the below routing options available
+
+  1. Home
+
+  */
   render() {
     return (
       <div>
