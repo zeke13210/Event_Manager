@@ -1,7 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
-import SignIn from './SignIn';
-import Register from './Register';
+
+import {createBrowserHistory} from 'history';
+import { Router, Route } from 'react-router-dom';
+
+const history = createBrowserHistory();
 
 class Home extends React.Component {
 
@@ -16,11 +19,7 @@ class Home extends React.Component {
             <Nav.Link href="/Sign_In">Sign In</Nav.Link>
             <Nav.Link href="/Register">Register</Nav.Link>
           </Nav>
-          <Router history={history}>
-          <Route path="/Sign_In" exact component={SignIn} />
-          <Route path="/Register" exact component={Register} />
-
-        </Router>
+        
         </div>
       );
     }
