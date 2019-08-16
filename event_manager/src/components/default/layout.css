@@ -1,0 +1,10 @@
+#container{
+    display: block;
+    justify-content: center;
+    text-align: center;    
+  }
+
+#btn-container{
+    padding-right: 5px;
+    margin-left: 10px;
+}

@@ -11,7 +11,7 @@ const history = createBrowserHistory(); //Stores componenet history in browser
 class DefaultRoutes extends React.Component {
 /*
     For first time visitors of website this Route displays and shows them the below
-    available routes. Functionality still under  works.
+    available routes.
 
     1. Home
     2. Sign In

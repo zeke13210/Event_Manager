@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import UserRoute from './components/user/UserRoutes';
-import DefaultRoutes from './components/default/Home';
+import DefaultRoutes from './components/default/DefaultRoutes';
 class App extends React.Component {
 
 
@@ -16,7 +16,7 @@ class App extends React.Component {
 
     */
     return (
-      <UserRoute /> 
+      <DefaultRoutes /> 
     );
   }
 }
